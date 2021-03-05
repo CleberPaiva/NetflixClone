@@ -1,10 +1,10 @@
-package com.marcos.netflixclone
+package com.cleberpaiva.family
 
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.MediaController
-import com.marcos.netflixclone.databinding.ActivityVideoBinding
+import com.cleberpaiva.family.databinding.ActivityVideoBinding
 
 class Video : AppCompatActivity() {
 
@@ -17,7 +17,7 @@ class Video : AppCompatActivity() {
 
         supportActionBar!!.hide()
 
-        val videoUrl = Uri.parse("https://firebasestorage.googleapis.com/v0/b/netflix-clone-1b725.appspot.com/o/THE%20WITCHER%20_%20TRAILER%20FINAL%20_%20NETFLIX.mp4?alt=media&token=5141bddd-5f7b-4903-adb6-d93d419c84c9")
+        val videoUrl = Uri.parse("https://firebasestorage.googleapis.com/v0/b/family-f890c.appspot.com/o/AnaCarolina.MOV?alt=media&token=38cacbc5-de0e-40a9-8765-6d1c3f3f4661")
 
         val video = binding.video
         video.setMediaController(MediaController(this))
