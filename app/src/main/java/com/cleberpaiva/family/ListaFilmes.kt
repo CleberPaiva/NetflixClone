@@ -1,4 +1,4 @@
-package com.marcos.netflixclone
+package com.cleberpaiva.family
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,11 +8,11 @@ import android.view.MenuItem
 import android.view.View
 import androidx.recyclerview.widget.GridLayoutManager
 import com.google.firebase.auth.FirebaseAuth
-import com.marcos.netflixclone.Adapter.FilmesAdapter
-import com.marcos.netflixclone.Model.addFilmes
-import com.marcos.netflixclone.OnClick.OnItemClickListener
-import com.marcos.netflixclone.OnClick.addOnItemClickListener
-import com.marcos.netflixclone.databinding.ActivityListaFilmesBinding
+import com.cleberpaiva.family.Adapter.FilmesAdapter
+import com.cleberpaiva.family.Model.addFilmes
+import com.cleberpaiva.family.OnClick.OnItemClickListener
+import com.cleberpaiva.family.OnClick.addOnItemClickListener
+import com.cleberpaiva.family.databinding.ActivityListaFilmesBinding
 
 class ListaFilmes : AppCompatActivity() {
 

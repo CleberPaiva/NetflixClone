@@ -1,4 +1,4 @@
-package com.marcos.netflixclone
+package com.cleberpaiva.family
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,7 +7,7 @@ import com.google.firebase.FirebaseNetworkException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthUserCollisionException
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException
-import com.marcos.netflixclone.databinding.ActivityFormCadastroBinding
+import com.cleberpaiva.family.databinding.ActivityFormCadastroBinding
 
 class FormCadastro : AppCompatActivity() {
 
@@ -67,7 +67,7 @@ class FormCadastro : AppCompatActivity() {
     private fun Toolbar(){
         val toolbar = binding.toolbarCadastro
         toolbar.setBackgroundColor(getColor(R.color.white))
-        toolbar.setNavigationIcon(getDrawable(R.drawable.ic_netflix_official_logo))
+        toolbar.setNavigationIcon(getDrawable(R.drawable.logofamily))
     }
 
 

@@ -1,6 +1,6 @@
-package com.marcos.netflixclone.Model
+package com.cleberpaiva.family.Model
 
-import com.marcos.netflixclone.R
+import com.cleberpaiva.family.R
 
 data class Filmes(
 

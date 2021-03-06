@@ -1,10 +1,10 @@
-package com.marcos.netflixclone.Adapter
+package com.cleberpaiva.family.Adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.marcos.netflixclone.Model.Filmes
-import com.marcos.netflixclone.databinding.ListaFilmesBinding
+import com.cleberpaiva.family.Model.Filmes
+import com.cleberpaiva.family.databinding.ListaFilmesBinding
 
 class FilmesAdapter (val filmes: MutableList<Filmes>): RecyclerView.Adapter<FilmesAdapter.FilmesViewHolder>() {
 

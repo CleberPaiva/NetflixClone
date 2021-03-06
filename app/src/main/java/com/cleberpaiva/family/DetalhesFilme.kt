@@ -1,12 +1,12 @@
-package com.marcos.netflixclone
+package com.cleberpaiva.family
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
-import com.marcos.netflixclone.Adapter.FilmesAdapter
-import com.marcos.netflixclone.Model.addFilmes
-import com.marcos.netflixclone.databinding.ActivityDetalhesFilmeBinding
+import com.cleberpaiva.family.Adapter.FilmesAdapter
+import com.cleberpaiva.family.Model.addFilmes
+import com.cleberpaiva.family.databinding.ActivityDetalhesFilmeBinding
 import com.squareup.picasso.Picasso
 
 class DetalhesFilme : AppCompatActivity() {

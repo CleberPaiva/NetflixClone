@@ -1,4 +1,4 @@
-package com.marcos.netflixclone.OnClick
+package com.cleberpaiva.family.OnClick
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

@@ -1,4 +1,4 @@
-package com.marcos.netflixclone
+package com.cleberpaiva.family
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,7 @@ import android.widget.Toast
 import com.google.firebase.FirebaseNetworkException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
-import com.marcos.netflixclone.databinding.ActivityFormLoginBinding
+import com.cleberpaiva.family.databinding.ActivityFormLoginBinding
 
 class FormLogin : AppCompatActivity() {
 

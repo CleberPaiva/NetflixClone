@@ -1,4 +1,4 @@
-package com.marcos.netflixclone
+package com.cleberpaiva.family
 
 import org.junit.Test
 
